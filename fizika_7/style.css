@@ -4,8 +4,10 @@ padding:0;
 box-sizing:border-box;
 }
 body{
-background-image:url("fon.jpg");
+background-image:url("img/fon.jpg");
 font-family:Arial;
+text-align: justify
+;
 }
 header{
 background:#FF0000;
@@ -15,18 +17,19 @@ margin: auto;
 color:white;
 line-height:120px;
 font-size:45px;
-
-
-
 }
 
 h5{
 float:left;
 margin:2px;
 }
+h6{
+	font-size: 30px;
+	color: red;
+}
+
 .osn{
 background:RGBA(206,206,206,.8);
-
 margin-left:70px;
 padding-left:30px;
 padding-top:2px;
@@ -38,7 +41,7 @@ float:left;
 min-width: 630px;
 }
 .formula{
-background:url(fon2.png);
+background:url(img/fon2.png);
 float:right;
 width:35%;
 
@@ -113,6 +116,7 @@ left:0;
 z-index:5;
 width:100%;
 }
+
 ul{
 text-align:center;
 padding:0.7%;
@@ -124,6 +128,7 @@ background:#648989;
 width:15%;
 height:40px;
 line-height:40px;
+transition:0.6s;
 
 }
 ul li:hover{
@@ -132,12 +137,14 @@ background:RGB(214,223,112);
 width:15%;
 height:40px;
 line-height:40px;
+transform:rotate(5deg);
 
 }
 ul li a{
 color:white;
 text-decoration:none;
 font-size:18px;
+display:block;
 }
 .obsh{
 height:257px;

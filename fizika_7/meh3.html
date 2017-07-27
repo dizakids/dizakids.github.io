@@ -1,0 +1,171 @@
+<html>
+<head>
+   <link rel="stylesheet" href="style.css">
+   <meta charset="utf-8">
+   <title>ФИЗИКА</title>
+    <link rel="icon" href="ico.png">
+    <script>
+        
+          function f()
+        {  
+			var m= document.test.m.value;
+			var g= document.test.g.value;
+			var f = +m * +g; 
+            document.getElementById('f').innerHTML=f.toFixed(2) +" м<HR>";
+			
+        }
+		
+		  
+        function m()
+        {  
+			var ff= document.test_.ff.value;
+			var gg= document.test_.gg.value;
+		
+			var mm = +ff / +gg; 
+			
+            document.getElementById('mm').innerHTML=mm.toFixed(2) +" с<HR>";
+        }
+		
+	  function m1()
+        {  
+			var f1= document.test_1.f1.value;
+			var g1= document.test_1.g1.value;
+		
+			var m1 = +f1 / +g1; 
+			
+            document.getElementById('mm1').innerHTML=m1.toFixed(2) +" м/с<HR>";
+        }
+
+	
+		
+      
+    </script>
+</head>
+<body id="fff">
+<div class="menu">
+		<ul>
+			<li><a href="index.html">Главная</a></li>
+			<li><a href="index_r.html">Разделы Физики</a></li>
+			<li><a href="index_f.html">Формулы</a></li>
+			<li><a href="index_o.html">Опыты</a></li>
+		</ul>
+	</div>
+
+	
+<div class="structura">
+	<header ><h2>Механическое Движение</h2></header>
+	
+</div>
+<h2 >Путь</h2>
+<div class="zad">
+	<form name="test" class="osn">
+		<div class="resh">
+			<h2>Решение:</h2><br>
+			<h4>S=vt</h4>
+			<br><h5>S=</h5><h5 id="f"></h5>
+			<br><br><input type="button"  value="Решить." onClick="f();" class="cnop">
+		</div>
+		<div class="border">
+		Ищем Путь
+			<h2>Дано:</h2>
+			
+			<br><h5>v=</h5><input id="m"><h6>м/с</h6>
+			<br><h5>t=</h5><input id="g"><h6>с</h6>
+	   </div>
+	   <div class="neiz"><h3>S-?</h3></div>
+	</form>
+	
+	
+	<br>
+	
+	
+	
+	<form name="test_" class="osn">
+		
+	   	<div class="resh">
+			<h2>Решение:</h2>
+			<br>
+		
+			<h4>t=S/v</h4>
+			<br><h5>t=</h5><h5 id="mm"></h5>
+			<br><br><input type="button"  value="Решить." onClick="m();" class="cnop">
+		</div>
+		
+		<div class="border">
+		Ищем время тела 
+			<h2>Дано:</h2>
+			<br><h5>S=</h5><input id="ff"><h6>м</h6>
+			<br><h5>v=</h5><input id="gg"><h6>м/с</h6>
+	  </div>
+	  
+	
+	 <div class="neiz">
+	 <h3>m-?</h3>
+
+	 </div>
+	</form>
+		<br><form name="test_1" class="osn">
+		
+	   	<div class="resh">
+			<h2>Решение:</h2>
+			<br>
+		
+			<h4>v=S/t</h4>
+			<br><h5>v=</h5><h5 id="mm1"></h5>
+			<br><br><input type="button"  value="Решить." onClick="m1();" class="cnop">
+		</div>
+		
+		<div class="border">
+		Ищем скорость тела 
+			<h2>Дано:</h2>
+			<br><h5>S=</h5><input id="f1"><h6>м</h6>
+			<br><h5>t=</h5><input id="g1"><h6>c</h6>
+	  </div>
+	  
+	
+	 <div class="neiz">
+	 <h3>v-?</h3>
+
+	 </div>
+	</form>
+</div>
+	
+<div class="formula">
+<h4>Теоритические<br>сведения</h4>
+	Механическое движение – это изменение положения тела в пространстве относительно других тел. Например, автомобиль движется по дороге. В автомобиле находятся люди. Люди движутся вместе с автомобилем по дороге.
+ <br><br>
+<img src="img/meh3.png">
+<br><br>
+Раздел механики, описывающий геометрические свойства движения без учёта причин, его вызывающих, называется кинематикой.
+
+
+<br><br>
+В более общем значении движением называется изменение состояния физической системы с течением времени. Например, можно говорить о движении волны в среде
+<br><br>
+
+
+</div><br>
+
+	 
+		<div class="clear"></div>
+		
+		
+	<br><footer>
+
+	  <p><br>Brovko.A
+			<br>380970538370
+			<br>brovchik03@bk.ru
+			<br>2016
+			</p>
+			<p class="pp">
+			Читай, познавай, исследуй! Мир физики интересен и увлекателен, он приглашает всех любознательных в путешествие по страницам сайта «Физика в картинках».
+			</p>
+			<a href="#fff" ><img src="img/up.png" class="up"></a>
+	</footer>
+
+
+
+</body>
+
+</html>
+		
