@@ -1,0 +1,96 @@
+
+.ac-container{
+	margin: 10px auto 30px auto;
+	width:90%;
+}
+.ac-container label{
+	padding: 5px 20px;
+	position: relative;
+	z-index: 20;
+	display: block;
+	height: 35px;
+	line-height: 30px;
+	background:linear-gradient(#fff,#bbb);
+	border-radius:2px;
+	color:#006064;
+}
+
+.ac-container label:hover{
+	background: #fff;
+}
+
+.ac-container input:checked + label,
+.ac-container input:checked + label:hover{
+	background: #c6e1ec;
+}
+
+.ac-container label:hover:after,
+.ac-container input:checked + label:hover:after{
+	content: '';
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	right: 13px;
+	top: 7px;
+	background: url(../img/arrow_down.png) no-repeat center center;	
+}
+
+.ac-container input:checked + label:hover:after{
+	background-image: url(../img/arrow_up.png);
+}
+
+.ac-container input{
+	display: none;
+}
+
+.ac-container article{
+	background: rgba(255, 255, 255, 0.5);
+	margin-top: -1px;
+	overflow: hidden;
+	height: 0px;
+	position: relative;
+	z-index: 10;
+	-webkit-transition: 0.3s;
+	-moz-transition:  0.3s;
+	-o-transition:  0.3s;
+	-ms-transition:  0.3s;
+	transition:  0.3s;
+}
+
+.ac-container article p{
+	line-height: 23px;
+	padding: 20px;
+	
+}
+.ac-container input:checked ~ article{
+	-webkit-transition: 0.5s;
+	-moz-transition:0.5s;
+	-o-transition: 0.5s;
+	-ms-transition:  0.5s;
+	transition: 0.5s;
+}
+
+.ac-container input:checked ~ article.ac-large{
+	height: 270px;
+}
+
+.ac-container input:checked ~ article.ac-smoll{
+	height: 130px;	
+}
+
+.ac-container  a{
+	display: block;
+	border-bottom:2px solid #ccc;
+	color:#A65B00;
+	text-align:center;
+}
+
+.ac-container  a:hover{
+	color:#888;	
+}
+
+.ac-container  p{
+	text-align:center;
+	font-style:italic;
+}
+

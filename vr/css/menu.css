@@ -1,0 +1,64 @@
+.menu {
+	display: inline-block;
+	position: relative;
+	float:right;
+}
+
+.menu li {
+	float: left;
+	list-style: none;
+	border-right: 1px dotted #888;
+}
+
+.menu li a {
+	display: block;
+	padding: 8px 10px 10px;
+	text-decoration: none;
+	text-transform:uppercase;
+	color:#A65B00;
+}
+
+.menu li a:hover {
+	background:linear-gradient(#fff,#bbb);
+	border-radius:2px;
+}
+
+.menu li a:visited {
+	 color:#A65B00;
+}
+
+/*Выпадающее меню*/
+.menu li ul {
+	display: none;
+	position: absolute;
+	top: 34px;
+	left: 20%;
+	background: rgba(255,255,255,.6);
+	border-top: 1px solid #ccc;
+	font-size:12px;
+}
+
+.menu li:hover ul {
+	display: block;
+}
+
+.menu li:hover ul li {
+	position: relative;
+	display: inline;
+	border-right: none;
+	float: left;
+}
+
+.menu li:hover ul li a {
+	border-right: none;
+	padding: 6px 20px 8px;
+	float: left;
+	color:#006064;
+	border-top:1px solid #006064;
+}
+
+.menu li:hover ul li a:hover {
+	background:linear-gradient(#fff,#bbb);
+}
+
+

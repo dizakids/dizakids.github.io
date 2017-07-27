@@ -1,0 +1,365 @@
+﻿*{margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:Verdana;
+}
+
+a{
+	text-decoration:none;
+	color:grey;
+}
+
+
+aside{
+	height:100px;
+	background:#FF6200;
+	clear:both;
+}
+
+.header{
+	position:fixed;
+	top:0;
+	right:0;
+	width:100%;
+	z-index:300;
+}
+
+.head{
+	height:15px;
+	background:#FF6200;
+}
+
+.home {
+	text-transform:lovercase;
+	color:grey;
+}
+
+.home:hover{
+	color:#FF6200;
+	
+}
+
+.home:link{
+	color:#2f4351;
+}
+
+.menu{
+	background:grey;	
+	line-height:80px;
+	height:100px;
+	font-size:20px;
+	text-transform:uppercase;
+	text-align:center;	
+}
+
+h1{
+	text-align:center;
+	padding:35px 0 20px;
+	color:#FF6200;	
+}
+
+h3{
+	text-align:center;
+	padding:3%;
+	font-weight:bold;
+	color:#2f4351;
+}
+
+h5{
+	float:left;
+	color:#2f4351;
+	font-weight:10px;
+	font-size:18px;
+	clear:both;
+	margin-left:17%;
+}
+
+p{
+	text-align:center;
+	color:#FF6200;
+	font-size:20px;
+}
+
+.logo{
+	position:absolute;
+	top:480px;
+	left:0;
+	background:rgba(255,255,255, .5);
+	z-index:2;
+	width:22%;
+	height:100px;
+	padding:1%;
+}
+.logo_1{
+	position:absolute;
+	top:100px;
+	right:0;
+	z-index:2;
+	width:15%;
+	height:50px;
+	padding:1%;
+}
+
+section{
+	width:80%; 
+	margin:0 auto;
+	padding:2%;
+	overflow:hidden;
+	
+}
+
+.aboutus{
+	height:530px;
+	margin-bottom:50px;
+	border:10px double #2f4351;
+	padding:2%;
+	box-shadow:10px 10px 10px grey;
+}
+
+img{
+	float:left;
+	box-shadow:0 3px 5px 3px grey;
+	margin:2%;
+}
+
+.article_pupil{
+	background:#2f4351;
+}
+
+.ad{
+	width:25%;
+	height:200px;
+	background:#FF6200;
+	float:left;
+	margin:2% 4%;
+	text-align:center;
+	padding-top:60px;
+	font-size:18px;
+	border:10px solid #587285;
+	font-family: "Ruthie", cursive;
+	font-size:20px;
+	font-weight:bold;
+}
+
+.ad a{
+	color:white;
+}
+
+.ad:hover{
+	background:grey;
+	border:10px solid FF6200;
+	color:white;
+}
+
+.ad a:hover{
+	color:#2f4351;	
+}
+
+.ex{
+	width:15%;
+	height:120px;
+	background:#fff;
+	float:left;
+	margin:2%;
+	text-align:center;
+	padding-top:30px;
+	font-size:18px;
+	border:10px solid #587285;
+	font-size:20px;
+	font-weight:bold;
+}
+
+.ex a{
+	color:grey;
+	display:block;
+}
+
+.ex:hover{
+	background:grey;
+	border:10px solid FF6200;
+	color:white;
+}
+
+.ex a:hover{
+	color:white;
+	display:block;
+}
+
+.exercise{
+	background:grey;
+	height:530px;
+}
+
+.teach_1{
+	background:url("../img/teach_1.jpg") no-repeat;	
+	box-shadow:0 3px 5px 3px grey;
+	float:left;
+	margin:1%;
+	width:17%;
+	height:240px;
+}
+
+.teach_2{
+	background:url("../img/teach_2.jpg") no-repeat;	
+	box-shadow:0 3px 5px 3px grey;
+	float:left;
+	margin:1%;
+	width:17%;
+	height:240px;
+}
+
+
+.teach_3{
+	background:url("../img/teach_3.jpg") no-repeat;	
+	box-shadow:0 3px 5px 3px grey;
+	float:left;
+	margin:1%;
+	width:17%;
+	height:240px;
+}
+
+.teach_4{
+	background:url("../img/teach_4.jpg") no-repeat;	
+	box-shadow:0 3px 5px 3px grey;
+	float:left;
+	margin:1%;
+	width:17%;
+	height:240px;
+}
+
+.teach_5{
+	background:url("../img/teach_5.jpg") no-repeat;	
+	box-shadow:0 3px 5px 3px grey;
+	float:left;
+	margin:1%;
+	width:17%;
+	height:240px;
+}
+
+.teach_6{
+	background:url("../img/teach_6.jpg") no-repeat;	
+	box-shadow:0 3px 5px 3px grey;
+	float:left;
+	margin:1%;
+	width:17%;
+	height:240px;
+}
+
+.teach_7{
+	background:url("../img/teach_7.jpg") no-repeat;	
+	box-shadow:0 3px 5px 3px grey;
+	float:left;
+	margin:1%;
+	width:17%;
+	height:240px;
+}
+
+.teach_8{
+	background:url("../img/teach_8.jpg") no-repeat;	
+	box-shadow:0 3px 5px 3px grey;
+	float:left;
+	margin:1%;
+	width:17%;
+	height:240px;
+}
+
+.teach_9{
+	background:url("../img/teach_9.jpg") no-repeat;	
+	box-shadow:0 3px 5px 3px grey;
+	float:left;
+	margin:1%;
+	width:17%;
+	height:240px;
+}
+
+.teach_10{
+		background:url("../img/teach_10.jpg") no-repeat;	
+		box-shadow:0 3px 5px 3px grey;
+		float:left;
+		margin:1%;
+		width:17%;
+		height:240px;
+}
+
+.teach_1:hover, 
+.teach_2:hover, 
+.teach_3:hover, 
+.teach_4:hover,
+.teach_5:hover, 
+.teach_6:hover,
+.teach_7:hover,
+.teach_8:hover,
+.teach_9:hover,
+.teach_10:hover,
+.teach_11:hover{
+	opacity:.6;
+}
+
+.teach_11{
+	background:url("../img/teach_11.jpg") no-repeat;
+	box-shadow:0 3px 5px 3px grey;		
+	width:32%;
+	float:left;
+	height:240px;
+	margin:1%;
+		
+}
+
+.bubble {
+	width: 30%;
+	height: 110px;
+	background: grey;
+	position: relative;
+	margin-left: 5%;
+	float:left;
+	padding:1%;
+	color:#fff;
+}
+
+.bubble:before {
+	content: "";
+	position: absolute;
+	right: 100%;
+	top: 26px;
+	width: 0;
+	height: 0;
+	border-top: 13px solid transparent;
+	border-right: 26px solid grey;
+	border-bottom: 13px solid transparent;
+}
+
+.bubble a{
+	float:right;
+	color:#2f4351;;
+}
+
+.bubble a:hover{
+	float:right;
+	color:#FF6200;
+}
+
+.copy {
+	padding-top:1%;
+	text-align:center;
+}
+
+.article_page{
+	background:#2f4351;
+	height:780px;
+}
+
+.page{
+	background:#FF6200;
+	height:670px;
+}
+
+.page a{
+	color:grey;
+}
+	
+.page p{
+	color:#2f4351;
+	text-align:left;
+	margin:2%;
+	font-size:14px;
+}

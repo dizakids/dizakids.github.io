@@ -1,0 +1,191 @@
+.tabs {
+    position: relative;
+	background:#FF6200;
+}
+
+.tabs input {
+	position: absolute;
+	z-index: 10;
+	height: 40px;
+	left: 0px;
+	top: 0px;
+	opacity: 0;
+}
+
+.tabs label {
+	background: grey;
+	font-size: 15px;
+	line-height: 40px;
+	height: 40px;
+	position: relative;
+	padding: 0 20px;
+    float: left;
+	display: block;
+	width: 20%;
+	color:#2f4351;
+	font-weight: bold;
+	text-align: center;
+}
+
+.tabs label:after {
+    content: '';
+	background: #fff;
+	position: absolute;
+	bottom: -2px;
+	left: 0;
+	height: 2px;
+	display: block;
+}
+
+.tabs input:hover + label {
+	background: grey;
+}
+
+.tab-label-2 {
+    z-index: 3;
+}
+
+.tab-label-3 {
+    z-index: 2;
+}
+
+.tab-label-4 {
+    z-index: 1;
+}
+
+.tabs input:checked + label {
+    background: #fff;
+	z-index: 6;
+    -webkit-animation: page 0.2s linear;
+    -moz-animation: page 0.2s linear;
+    -ms-animation: page 0.2s linear;
+    -o-animation: page 0.2s linear;
+    animation: page 0.2s linear;
+}
+
+.clear-shadow {
+	clear: both;
+}
+
+.content {
+	position: relative;
+	height: 93%;
+	z-index: 5;
+	overflow: hidden;
+    background:#FF6200;
+}
+
+.content div {
+    position: absolute;
+	top: 0;
+	z-index: 1;
+    opacity: 0;
+}
+
+.content-1, .content-3, .content-2, .content-4 {
+	width:100%;
+}
+
+.tabs input.tab-selector-1:checked ~ .content .content-1,
+.tabs input.tab-selector-2:checked ~ .content .content-2,
+.tabs input.tab-selector-3:checked ~ .content .content-3,
+.tabs input.tab-selector-4:checked ~ .content .content-4 {
+    -webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	-o-transform: translateX(0px);
+	-ms-transform: translateX(0px);
+	transform: translateX(0px);
+	z-index: 100;
+    opacity: 1;
+    -webkit-transition: all ease-out 0.2s 0.1s;
+    -moz-transition: all ease-out 0.2s 0.1s;
+    -o-transition: all ease-out 0.2s 0.1s;
+    -ms-transition: all ease-out 0.2s 0.1s;
+    transition: all ease-out 0.2s 0.1s;
+}
+
+.content div h2,
+.content div h3{
+	color: #398080;
+}
+
+.content div p {
+	font-size: 14px;
+	line-height: 22px;
+	margin: 0;
+	color:#2f4351;
+
+	
+}
+
+object{overflow: auto;}
+
+@keyframes "page" {
+ 0% {
+    left: 0;
+ }
+ 50% {
+    left: 10px;
+ }
+ 100% {
+    left: 0;
+ }
+
+}
+
+@-moz-keyframes page {
+ 0% {
+   left: 0;
+ }
+ 50% {
+   left: 10px;
+ }
+ 100% {
+   left: 0;
+ }
+
+}
+
+@-webkit-keyframes "page" {
+ 0% {
+   left: 0;
+ }
+ 50% {
+   left: 10px;
+ }
+ 100% {
+   left: 0;
+ }
+
+}
+
+@-ms-keyframes "page" {
+ 0% {
+   left: 0;
+ }
+ 50% {
+   left: 10px;
+ }
+ 100% {
+   left: 0;
+ }
+
+}
+
+@-o-keyframes "page" {
+ 0% {
+   left: 0;
+ }
+ 50% {
+   left: 10px;
+ }
+ 100% {
+   left: 0;
+ }
+
+}
+
+.page  label{
+    width: 50%;
+}
+

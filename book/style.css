@@ -1,0 +1,154 @@
+/* Основные стили */
+body{
+	font-family: cursive;
+}
+.content {
+	position: absolute;
+	top: 20%;
+	
+	/* background-color: #FFE42C; */
+	padding: 28px;
+	z-index: 999;
+	text-align: center;
+}
+
+.content h1 {
+	font-size: 3em;
+	font-weight: 700;
+	color: #ffffff;
+	text-align: center;
+	text-shadow: 0 0 20px #000000;
+}
+
+.content h2 {
+	font-size: 1em;
+	font-weight: 700;
+	color: #ffffff;
+	text-align: center;
+	text-shadow: 0 0 20px #000000;
+	margin: 1%;
+}
+
+h3 {
+	font-size: 2em;
+	font-weight: 700;
+	color: #ffffff;
+	text-align: center;
+	text-shadow: 0 0 20px #000000;
+	margin: 1%;
+	position: absolute;
+	top: 2%;
+	left: 40%;
+	z-index: 999;
+}
+h3 img{
+	width: 50px;
+}
+
+h4{
+	font-size: 2em;
+	font-weight: 700;
+	text-align: center;
+	text-shadow: 0 0 20px #fff;
+	color: #004040;
+	margin-top: 100px;
+}
+.content p {
+	margin-top: 14px;
+	
+	
+}
+.box img{
+	width: 300px;
+	margin:1% auto;
+	box-shadow: 0 0 6px #000;
+	display: block;
+	transition: 1s;
+}
+
+.box img:hover{
+		transform: scale(2);
+	transition: 1s;
+}
+
+.box{
+	width:  70%;
+	margin: 10px auto;
+	background: rgba(255,255,255,.7);
+	padding: 2%;
+	box-shadow: 0 0 20px #fff;
+	text-align: justify;
+}
+.box1{
+	color: #fff;
+	background: rgba(0,64,64,.5);
+	
+}
+
+.box3{
+	color: #fff;
+	background: rgba(0,64,64,.5);
+	width: 30%;
+	display: inline-block;
+	height: 440px;
+	
+}
+.section1 img{
+	width: 100px;
+	height: 160px;
+	transition: 1s;
+	box-shadow: 0 0 6px #000;
+}
+
+.section1 img:hover{
+	transform: scale(2);
+	transition: 1s;
+}
+span{
+	color: #004040;
+}
+/* Стили для видеофона */
+
+#video-bg {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+	z-index: 1;
+	
+	background-size: cover;
+}
+
+#video-bg > video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width: 100%; 
+	
+	width: auto;
+	
+}
+
+
+/* Проверка на поддержку свойства object-fit: */
+
+ @supports (object-fit: cover) {
+     #video-bg > video {
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+     }
+ }
+
+
+/* Отключение видео для устройств с размером экрана менее 800px: */
+
+@media screen and (max-device-width: 800px) {
+	#video-bg > video {
+		display: none;
+		}
+	}

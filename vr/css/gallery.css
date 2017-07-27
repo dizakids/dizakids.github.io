@@ -1,0 +1,43 @@
+.gallery {
+    width: 650px;
+    height:326px;
+	background: url(../images/3.jpg);
+    -webkit-animation: anim 50s infinite;
+	-o-animation: anim 50s infinite; 
+	-ms-animation: anim 50s infinite; 
+	-moz-animation: anim 50s infinite; 	
+    animation: anim  50s infinite;
+	position:absolute;
+	top:0;
+	right:0;
+}
+
+@-webkit-keyframes anim {
+    0%{background: url(../images/1.jpg);}
+    50%  {background: url(../images/3.jpg);}
+    100% {background: url(../images/4.jpg);}
+}
+
+@-o-keyframes anim {
+    0%{background: url(../images/1.jpg);}
+    50%  {background: url(../images/3.jpg);}
+    100% {background: url(../images/4.jpg);}
+}
+
+@-ms-keyframes anim {
+    0%{background: url(../images/1.jpg);}
+    50%  {background: url(../images/3.jpg);}
+    100% {background: url(../images/4.jpg);}
+}
+
+@-moz-keyframes anim {
+    0%{background: url(../images/1.jpg);}
+    50%  {background: url(../images/3.jpg);}
+    100% {background: url(../images/4.jpg);}
+}
+
+@keyframes anim {
+    0%{background: url(../images/1.jpg);}
+    50%  {background: url(../images/3.jpg);}
+    100% {background: url(../images/4.jpg);}
+}
