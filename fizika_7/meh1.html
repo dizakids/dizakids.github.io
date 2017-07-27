@@ -1,0 +1,137 @@
+<html>
+<head>
+   <link rel="stylesheet" href="style.css">
+   <meta charset="utf-8">
+   <title>ФИЗИКА</title>
+    <link rel="icon" href="ico.png">
+    <script>
+        
+        function f()
+        {  
+			var m= document.test.m.value;
+			var g= document.test.g.value;
+			var f = +m * +g; 
+            document.getElementById('f').innerHTML=f.toFixed(2) +" H<HR>";
+			
+        }
+		
+		  
+        function m()
+        {  
+			var ff= document.test_.ff.value;
+			var gg= document.test_.gg.value;
+		
+			var mm = +ff / +gg; 
+			
+            document.getElementById('mm').innerHTML=mm.toFixed(2) +" кг<HR>";
+        }
+      
+    </script>
+</head>
+<body id="fff">
+<div class="menu">
+		<ul>
+			<li><a href="index.html">Главная</a></li>
+			<li><a href="index_r.html">Разделы Физики</a></li>
+			<li><a href="index_f.html">Формулы</a></li>
+			<li><a href="index_o.html">Опыты</a></li>
+		</ul>
+	</div>
+<div class="ss">
+					
+			<a href="#f1">Сила тяжести</a>
+					<a href="">Сила трения</a>
+					<a href="">Сила Архимеда</a>
+				
+				</div>	
+<div class="structura">
+	<header ><h2 id="f1">Взаимодействие тел</h2></header>
+	
+</div>
+<h2 >Сила тяжести</h2>
+<div class="zad">
+	<form name="test" class="osn">
+		<div class="resh">
+			<h2>Решение:</h2><br>
+			<h4>F=mg</h4>
+			<br><h5>F=</h5><h5 id="f"></h5>
+			<br><br><input type="button"  value="Решить." onClick="f();" class="cnop">
+		</div>
+		<div class="border">
+		Ищем силу тяжести
+			<h2>Дано:</h2>
+			
+			<br><h5>m=</h5><input id="m"><h6>kgs</h6>
+			<br><h5>g=</h5><input id="g"><h6>H/кг</h6>
+	   </div>
+	   <div class="neiz"><h3>F-?</h3></div>
+	</form>
+	
+	
+	<br>
+	
+	
+	
+	<form name="test_" class="osn">
+		
+	   	<div class="resh">
+			<h2>Решение:</h2>
+			<br>
+		
+			<h4>m=F/g</h4>
+			<br><h5>m=</h5><h5 id="mm"></h5>
+			<br><br><input type="button"  value="Решить." onClick="m();" class="cnop">
+		</div>
+		
+		<div class="border">
+		Ищем массу тела 
+			<h2>Дано:</h2>
+			<br><h5>F=</h5><input id="ff"><h6>kgs</h6>
+			<br><h5>g=</h5><input id="gg"><h6>H/кг</h6>
+	  </div>
+	  
+	
+	 <div class="neiz">
+	 <h3>m-?</h3>
+
+	 </div>
+	</form>
+</div>
+	
+<div class="formula">
+<h4>Теоретические<br>сведения</h4>
+	Сила тяжести, действующая на тело, находящееся на поверхности Земли равна массе тела, умноженной на постоянную 
+  Сила тяжести - сила (Fт), с которой Земля притягивает к себе тело, равная произведению массы (m) тела на коэффициент пропорциональности (g) - постоянную величину для Земли.
+ <br><br>
+<img src="img/f.jpg">
+<br><br>
+Здесь F – сила тяжести, m – масса, g — ускорение свободного падения.
+<br><br>
+Единица измерения силы – Н (ньютон).
+<br><br>
+Из-за того, что Земля имеет сплюснутую форму, то есть её радиус не везде одинаков, ускорение свободного падения меняется в зависимости от географической широты, от 9,832 на экваторе до 9,78 на полюсах. 9,8 – его среднее значение.
+<br><br>
+Сила тяжести действует на тело, имеющее опору или подвес. Если тело их не имеет, то есть находится в состоянии свободного падения, то говорят, что тело находится в невесомости. Сила тяжести всегда направлена к центру Земли.
+
+</div><br>
+	 
+		<div class="clear"></div>
+	<footer>
+
+	  <p><br>Brovko.A
+			<br>380970538370
+			<br>brovchik03@bk.ru
+			<br>2016
+			</p>
+			<p class="pp">
+			Читай, познавай, исследуй! Мир физики интересен и увлекателен, он приглашает всех любознательных в путешествие по страницам сайта «Физика в картинках».
+			</p>
+			<a href="#fff" ><img src="up.png" class="up"></a>
+	</footer>
+
+
+
+</body>
+
+</html>
+		
