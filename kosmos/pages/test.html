@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ZeroPlanet</title>
+	<link rel="stylesheet" href="../style.css">
+	<script src="scripts/app.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+	<script>
+    $(document).ready(function(){
+$("#p1").draggable({revert: "invalid"});
+$("#p2").draggable({revert: "invalid"});
+$("#p3").draggable({revert: "invalid"});
+$("#p4").draggable({revert: "invalid"});
+$("#p5").draggable({revert: "invalid"});
+$("#p6").draggable({revert: "invalid"});
+$("#p7").draggable({revert: "invalid"});
+$("#p8").draggable({revert: "invalid"});
+$("#p9").draggable({revert: "invalid"});
+$("#p10").draggable({revert: "invalid"});
+$("#p11").draggable({revert: "invalid"});
+$("#p12").draggable({revert: "invalid"});
+$("#p13").draggable({revert: "invalid"});
+$("#gr1").droppable({ accept: ".gr1" });
+$("#gr2").droppable({ accept: ".gr2" });
+$("#gr3").droppable({ accept: ".gr3" });
+$("#gr4").droppable({ accept: ".gr4" });
+	});
+
+
+</script>
+</head>
+<body background="../images/fon.gif">
+	<a href="../index.html#sun"><img src="../images/check.png" class="back"></a>
+	<ul class="block">
+		<li class="butt1"><a href="../index.html#sun" class="sill">сонце</a></li>
+		<li class="butt2"><a href="../index.html#mer" class="sill">меркурий</a></li>
+		<li class="butt3"><a href="../index.html#ven" class="sill">винера</a></li>
+		<li class="butt4"><a href="../index.html#str" class="sill">звёзды</a></li>
+		<li class="butt5"><a href="../index.html#mon" class="sill">луна</a></li>
+		<li class="butt6"><a href="../index.html#erh" class="sill">земля</a></li>
+		<li class="butt7"><a href="../index.html#ast" class="sill">астероид</a></li>
+		<li class="butt8"><a href="../index.html#jup" class="sill">юпитер</a></li>
+		<li class="butt9"><a href="../index.html#sat" class="sill">сатурн</a></li>
+		<li class="butt10"><a href="../index.html#urn" class="sill">уран</a></li>
+		<li class="butt11"><a href="../index.html#nep" class="sill">нептун</a></li>
+		<li class="butt12"><a href="../index.html#plu" class="sill">плутон</a></li>
+	</ul>
+	<h1 class="exh1">Собери планеты по группам</h1>
+	<div class="ex">
+	  <div class="gr" id="gr1">
+	    <h5>Земная группа</h5>
+
+	  </div>
+	  <div class="gr" id="gr2">
+	    <h5>Планеты-гиганты</h5>
+
+	  </div>
+	  <div class="gr" id="gr3">
+	    <h5>Планеты-ледовики</h5>
+
+	  </div>
+	  <div class="gr" id="gr4">
+	    <h5>Планета карлик</h5>
+	  </div>
+	</div>
+
+	<div class="planety">
+	  <h6 id="p1" class="gr1">Земля</h6>
+	  <h6 id="p2" class="gr4">Плутон</h6>
+	  <h6 id="p3" class="gr5">Метеорит</h6>
+	  <h6 id="p4" class="gr3">Нептун</h6>
+	  <h6 id="p5" class="gr1">Меркурий</h6>
+	  <h6 id="p6" class="gr1">Марс</h6>
+	  <h6 id="p8" class="gr5">Луна</h6>
+	  <h6 id="p9" class="gr1">Венера</h6>
+	  <h6 id="p10" class="gr2">Юпитер</h6>
+	  <h6 id="p11" class="gr2">Сатурн</h6>
+	  <h6 id="p12" class="gr3">Уран</h6>
+	  <h6 id="p13" class="gr5">Медведица</h6>
+	</div>
+	<a href="#top"><img src="../images/upico.png" class="top"></a>
+</body>
+</html>

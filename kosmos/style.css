@@ -1,0 +1,821 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+p {
+    margin: 2%;
+}
+
+body{
+    background: url(images/fon.gif);
+}
+
+.block {
+    height: 360px;
+    position: fixed;
+    right: 20px;
+    top: 0;
+    z-index: 100;
+    text-transform: uppercase;
+}
+
+.blockinfo {
+    width: 80%;
+    background: white;
+    border-radius: 50px;
+    padding: 5%;
+    margin: 10%;
+    text-align: center;
+}
+
+.blockinfo h1 {
+    background: #31af91;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.blockinfo p {
+    text-align: justify;
+}
+
+.blockinfo img {
+    border-radius: 10%;
+}
+
+h2 {
+    background: #ccc;
+}
+
+.back {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    z-index: 1000;
+    top: 1%;
+    left: 1%;
+    background: #31af91;
+    border-radius: 100%;
+}
+
+.logo {
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    font-size: 72px;
+}
+
+li {
+    list-style: none;
+    width: 100px;
+    height: 30px;
+    text-align: center
+}
+
+li:hover {
+    transform: translateX(-10px);
+    transition: .5s;
+    opacity: 1;
+}
+
+
+.butt1 {
+    background: #ff3c00;
+}
+
+.butt2 {
+    background: #ff002f;
+}
+
+.butt3 {
+    background: #db9600;
+}
+
+.butt4 {
+    background: #FF9900;
+}
+
+.butt5 {
+    background: #003FFF;
+}
+
+.butt6 {
+    background: #31af91;
+}
+
+.butt7 {
+    background: #7bff00;
+}
+
+.butt8 {
+    background: #ffa200;
+}
+
+.faktimg {
+    width: 600px;
+    border-radius: 30px;
+}
+
+summary {
+    background: #31af91;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 2%;
+    cursor: pointer;
+}
+
+h4 {
+    text-shadow: 1px 4px 6px #000;
+    text-align: center;
+    color: #31af91;
+}
+
+.butt9 {
+    background: brown;
+}
+
+.butt10 {
+    background: #d400ff;
+}
+
+.butt11 {
+    background: #7b00ff;
+}
+
+.butt12 {
+    background: #ff3c00;
+    border-radius: 0 0 15px 15px;
+}
+
+.sill {
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+
+h3 {
+    color: yellow;
+    text-align: center;
+}
+
+section {
+    position: relative;
+    height: 800px;
+}
+
+.sun {
+    margin: auto;
+    display: block;
+    width: 50%;
+}
+
+.asteroid {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.asteroidblock {
+    padding: 200px;
+}
+
+.star {
+    width: 30%;
+    display: block;
+    margin: 0 10%;
+}
+
+.moon {
+    display: block;
+    margin: 0 0 0 55%;
+    width: 20%;
+}
+
+.earth {
+    display: block;
+    width: 45%;
+    margin: auto;
+}
+
+.earthblock {
+    padding: 50px 0 0 0;
+
+}
+
+.merku {
+    display: block;
+    width: 10%;
+    margin: auto;
+}
+
+.merkublock {
+    padding: 4%;
+}
+
+.venera {
+    display: block;
+    width: 30%;
+    margin: auto;
+}
+
+.saturn {
+    display: block;
+    width: 55%;
+    margin: auto;
+}
+
+.jupiter {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+.uran {
+    display: block;
+    width: 35%;
+    margin: auto;
+}
+
+.neptun {
+    display: block;
+    width: 36%;
+    margin: auto;
+}
+
+.pluton {
+    display: block;
+    width: 9%;
+    margin: auto;
+}
+
+.plutonblock {
+    padding: 10%;
+}
+
+.sunbutt {
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 100%;
+    padding: 5px;
+    text-align: center;
+    transition: .2s;
+    position: absolute;
+    left: 46%;
+    top: 42%;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.sunsill {
+    width: 90px;
+    display: inline-block;
+    list-style: none;
+}
+
+.minisill {
+    width: 40px;
+    display: inline-block;
+    list-style: none;
+}
+
+.sunbutt:hover {
+    background: #ff3c00;
+    box-shadow: 0 0 20px #ff3c00;
+    transition: .2s;
+}
+
+.merkubutt {
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 100%;
+    padding: 5px;
+    text-align: center;
+    transition: .2s;
+    position: absolute;
+    left: 48%;
+    top: 22%;
+}
+
+.merkubutt:hover {
+    background: #ff002f;
+    box-shadow: 0 0 20px #ff002f;
+    transition: .2s;
+}
+
+.venerabutt {
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 100%;
+    padding: 5px;
+    text-align: center;
+    transition: .2s;
+    position: absolute;
+    left: 45%;
+    top: 23%;
+}
+
+.venerabutt:hover {
+    background: #db9600;
+    box-shadow: 0 0 20px #db9600;
+    transition: .2s;
+}
+
+.asteroidbutt {
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 100%;
+    padding: 5px;
+    text-align: center;
+    transition: .2s;
+    position: absolute;
+    left: 58%;
+    top: 50%;
+}
+
+.asteroidbutt:hover {
+    background: #FF9900;
+    box-shadow: 0 0 20px #FF9900;
+    transition: .2s;
+}
+
+.starbutt {
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 100%;
+    padding: 5px;
+    text-align: center;
+    transition: .2s;
+    position: absolute;
+    left: 23.2%;
+    top: 33%;
+}
+
+.starbutt:hover {
+    background: #003FFF;
+    box-shadow: 0 0 20px #003FFF;
+    transition: .2s;
+}
+
+.moonbutt {
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 100%;
+    padding: 5px;
+    text-align: center;
+    transition: .2s;
+    position: absolute;
+    left: 61%;
+    top: 18%;
+}
+
+.moonbutt:hover {
+    background: #00ff6e;
+    box-shadow: 0 0 20px #00ff6e;
+    transition: .2s;
+}
+
+.earthbutt {
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 100%;
+    padding: 5px;
+    text-align: center;
+    transition: .2s;
+    position: absolute;
+    left: 45%;
+    top: 50%;
+}
+
+.earthbutt2 {
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    transition: .2s;
+    position: absolute;
+    left: 7%;
+    top: 320px;
+}
+
+.earthbutt3 {
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    transition: .2s;
+    position: absolute;
+    left: 7%;
+    top: 200px;
+}
+
+.earthbutt4 {
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    transition: .2s;
+    position: absolute;
+    left: 7%;
+    top: 440px;
+}
+
+.gr {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 1px dashed grey;
+    display: inline-block;
+    margin: 2%;
+    color: white;
+}
+
+.exh1 {
+    text-align: center;
+    color: white;
+    margin-top: 70px;
+}
+
+.ex {
+    text-align: center;
+}
+
+.top {
+    width: 50px;
+    height: 50px;
+    background: #31af91;
+    padding: 5px;
+    text-align: center;
+    transition: .2s;
+    position: fixed;
+    right: 1%;
+    bottom: 1%;
+    border-radius: 100%;
+}
+
+h6 {
+    cursor: move;
+    display: inline-block;
+    background: orange;
+    padding: 10px;
+    width: 80px;
+    height: 80px;
+    line-height: 60px;
+    border-radius: 100%;
+    margin: 1%;
+    text-align: center;
+}
+
+.earthbutt5 {
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    transition: .2s;
+    position: absolute;
+    left: 7%;
+    top: 560px;
+}
+
+.earthbutt6 {
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    transition: .2s;
+    position: absolute;
+    left: 7%;
+    top: 680px;
+}
+
+.earthbutt2:hover {
+    background: #31af91;
+    box-shadow: 0 0 20px #31af91;
+    transition: .2s;
+}
+
+.earthbutt3:hover {
+    background: #31af91;
+    box-shadow: 0 0 20px #31af91;
+    transition: .2s;
+}
+
+.earthbutt4:hover {
+    background: #31af91;
+    box-shadow: 0 0 20px #31af91;
+    transition: .2s;
+}
+
+.earthbutt5:hover {
+    background: #31af91;
+    box-shadow: 0 0 20px #31af91;
+    transition: .2s;
+}
+.earthbutt6:hover {
+    background: #31af91;
+    box-shadow: 0 0 20px #31af91;
+    transition: .2s;
+}
+
+.earthbutt:hover {
+    background: #7bff00;
+    box-shadow: 0 0 20px #7bff00;
+    transition: .2s;
+}
+
+.jupiterbutt {
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 100%;
+    padding: 5px;
+    text-align: center;
+    transition: .2s;
+    position: absolute;
+    left: 45%;
+    top: 46%;
+}
+
+.jupiterbutt:hover {
+    background: #ffa200;
+    box-shadow: 0 0 20px #ffa200;
+    transition: .2s;
+}
+
+.saturnbutt {
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 100%;
+    padding: 5px;
+    text-align: center;
+    transition: .2s;
+    position: absolute;
+    left: 47%;
+    top: 24%;
+}
+
+.saturnbutt:hover {
+    background: #fbff00;
+    box-shadow: 0 0 20px #fbff00;
+    transition: .2s;
+}
+
+.uranbutt {
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 100%;
+    padding: 5px;
+    text-align: center;
+    transition: .2s;
+    position: absolute;
+    left: 45%;
+    top: 28%;
+}
+
+.uranbutt:hover {
+    background: #d400ff;
+    box-shadow: 0 0 20px #d400ff;
+    transition: .2s;
+}
+
+.neptunbutt {
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 100%;
+    padding: 5px;
+    text-align: center;
+    transition: .2s;
+    position: absolute;
+    left: 45%;
+    top: 25%;
+}
+
+.neptunbutt:hover {
+    background: #7b00ff;
+    box-shadow: 0 0 20px #7b00ff;
+    transition: .2s;
+}
+
+.plutonbutt {
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 100%;
+    padding: 5px;
+    text-align: center;
+    transition: .2s;
+    position: absolute;
+    left: 48%;
+    top: 29%;
+}
+
+.plutonbutt:hover {
+    background: #ff3c00;
+    box-shadow: 0 0 20px #ff3c00;
+    transition: .2s;
+}
+
+form {
+    height: 500px;
+    width: 500px;
+    margin: 4% 7%;
+    background: white;
+    border-radius: 100%;
+    text-align: center;
+    padding: 50px;
+    box-shadow: 0 0 30px white;
+}
+
+input {
+    margin: 10px;
+}
+
+button {
+    width: 200px;
+    height: 25px;
+    border: 1px #31af91 solid;
+    background: #31af91;
+}
+
+.formbutt {
+    border-radius: 0 0 200% 200%;
+    height: 50px;
+}
+
+.formh2 {
+    border-radius: 50px;
+}
+
+button:hover {
+    background: orange;
+    box-shadow: 0 0 20px orange;
+    transition: .2s;
+    border: none;
+}
+
+footer {
+    text-align: center;
+    background: #31af91;
+}
+h3{
+    margin: 2%;
+}
+
+iframe{
+    width: 560px;
+}
+@media (max-width: 500px) {
+    li {
+        display: inline-block;
+        margin: 0;
+    }
+
+    .blockinfo {
+        margin-top: 120px;
+    }
+
+    .block {
+        height: 150px;
+        text-align: right;
+        right: 0;
+    }
+
+    .butt12 {
+        border-radius: 0;
+    }
+
+    .sunblock {
+        padding-top: 180px;
+    }
+
+    h4 {
+        opacity: 0;
+    }
+
+    .logo {
+        margin: -20px;
+    }
+    .menubutt{
+        z-index: 100;
+        width: 50px;
+        height: 50px;
+    }
+    .menubutt img{
+        width: 40px;
+    }
+    .sunbutt{
+        top: 37%;
+        left: 39%;
+    }
+    .merkubutt{
+        top: 7%;
+        left: 45%;
+    }
+    .venerabutt{
+        top: 7%;
+        left: 39%; 
+    }
+    .starbutt{
+        top: 11%;
+        left: 19%;
+    }
+    .moonsill{
+        width: 40px;
+        display: inline-block;
+        list-style: none;
+    }
+    .moonbutt{
+        top: 5%;
+        left: 55%; 
+    }
+    .earthbutt{
+        top: 20%;
+        left: 39%;
+    }
+    .asteroidbutt{
+        top: 35%;
+        left: 43%;
+    }
+    .jupiterbutt{
+        top: 14%;
+        left: 39%;
+    }
+    .saturnbutt{
+        top: 6%;
+        left: 40%;
+    }
+    .uranbutt{
+        top: 8%;
+        left: 39%;
+    }
+    .neptunbutt{
+        top: 8%;
+        left: 39%;
+    }
+    .plutonbutt{
+        top: 10%;
+        left: 44%;
+    }
+    .faktimg{
+        width: 100%;
+    }
+    .iframe{
+        width: 100px;
+    }
+
+    iframe{
+        width: 330px;
+    }
+    h6{
+        width: 55px;
+        height: 55px;
+        text-align: center;
+        padding: 2px;
+        line-height: 50px;
+    }
+    .exh1{
+        margin-top: 100px; 
+    }
+    form{
+        width: 80%;
+        margin: 100px auto;
+    }
+    .earthbutt3{
+        top: 250px;
+    }
+    .earthbutt2{
+        top: 320px;
+    }
+    .earthbutt4{
+        top: 390px;
+    }
+    .earthbutt5{
+        top: 460px;
+    }
+    .earthbutt6{
+        top: 530px;
+    }
+}
