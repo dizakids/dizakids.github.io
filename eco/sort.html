@@ -1,0 +1,83 @@
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Игра</title>
+    <link rel="stylesheet" href="page.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $("#organika").draggable({revert: "invalid"});
+      $("#metal").draggable({revert: "invalid"});
+      $("#plastik").draggable({revert: "invalid"});
+      $("#steklo").draggable({revert: "invalid"});
+      $("#bumaga").draggable({revert: "invalid"});
+      $("#opasno").draggable({revert: "invalid"});
+
+      $("#organika_box").droppable({ accept: "#organika" });
+      $("#metal_box").droppable({ accept: "#metal" });
+      $("#plastik_box").droppable({ accept: "#plastik" });
+      $("#steklo_box").droppable({ accept: "#steklo" });
+      $("#bumaga_box").droppable({ accept: "#bumaga" });
+
+    });
+
+
+</script>
+<style>
+    .musor, .container {
+        text-align: center;
+    }
+    .container div{
+        display: inline-block;
+        
+    }
+</style>
+</head>
+
+<body>
+    <div class="box">
+      <h1>Перетяни меня!</h1>
+        <a href="index.html"><img src="images/go-back.png" width="80px"></a>
+    <div class="musor">
+         <img src="images/plastik.png" alt="plastik" id="plastik">
+         <img src="images/organika.png" alt="organika" id="organika">
+          <img src="images/bumaga.png" alt="bumaga" id="bumaga">
+         <img src="images/metal.png" alt="metal" id="metal">
+         <img src="images/opasno.png" alt="opasno" id="opasno">
+         <img src="images/steklo.png" alt="steklo" id="steklo">
+        
+    </div>
+
+    <div class="container">
+      <div id="organika_box">
+        <img src="images/organika_box.png" alt="organika">
+
+      </div>
+      <div id="metal_box">
+        <img src="images/metal_box.png" alt="organika">
+
+      </div>
+      <div id="plastik_box">
+        
+        <img src="images/plastik_box.png" alt="plastik">
+      </div>
+      <div id="steklo_box">
+        <img src="images/steklo_box.png" alt="steklo">
+      </div>
+       <div id="bumaga_box">
+        <img src="images/bumaga_box.png" alt="bumaga">
+      </div>
+    </div>
+  </div>
+        
+    </div>
+    <footer><p>Кривой Рог - 2019 Новиков Влад </p></footer>
+    <a href="#top" class="top"><img src="images/top.gif" width="90px"></a>
+</body>
+
+</html>
