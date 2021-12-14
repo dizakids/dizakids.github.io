@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div {
+    width: 90%;
+    margin: 50px auto;
+}
+body {
+    background: url(fon.jpg);
+    font-family: cursive;
+}
+header {
+    height: 237px;
+    background: rgba(190, 170, 170, 0.904);
+    border-radius: 17px;
+    border: 7px double rgb(121, 108, 55);
+    padding: 30px;
+    margin-bottom: 2%;
+    text-align: center;
+    
+}
+
+
+
+aside {
+    width: 20%;
+    float: left;
+    background: rgba(190, 170, 170, 0.904);
+    border-radius: 17px;
+    border: 7px double rgb(121, 108, 55);
+    padding: 30px;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+aside img {
+    border-radius: 7px;
+    border: 5px double rgb(56, 70, 60);
+}
+
+aside a {
+    color: rgb(85, 53, 53); 
+    border: 3px double rgb(46, 82, 56);
+    margin: 2%;
+    background: rgb(138, 110, 110);
+}
+
+main {
+    background: rgba(190, 170, 170, 0.904);
+    border-radius: 17px;
+    border: 7px double rgb(121, 108, 55);
+    margin-left: 22%;
+    padding: 30px;
+}
+footer {
+    height: 57px;
+    background: rgba(190, 170, 170, 0.904);
+    border-radius: 17px;
+    border: 7px double rgb(121, 108, 55);
+    clear: both;
+    padding: 30px;
+}
+
+li {
+    display: inline-block;
+    background: rgb(70, 54, 54);
+    width: 12%;
+    height: 57px;
+    line-height: 57px;
+    border-radius:  5px ;
+}
+
+li :hover {
+    background: rgb(139, 113, 42);
+}
+
+a {
+    color: cornsilk;
+    text-decoration: none;
+    display: block;
+}
+
+h1 {
+    font-size: 57px;
+    margin-bottom: 17px;
+   
+}
+
+#logo1 {
+    float: left;
+}
+
+#logo2 {
+    float: right;
+}
+
+.top {
+    width: 180px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
