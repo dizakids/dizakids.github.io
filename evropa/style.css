@@ -1,0 +1,88 @@
+body {
+    background: url(img/fon.jpeg);
+    animation: fon 60s infinite;
+}
+
+@keyframes fon {
+    from {
+      background-position: -100px 0;
+    }
+    to {
+      background-position: 100px 50px;
+    }
+  }
+img {
+    width: 350px;
+}
+#conteiner {
+    background: rgba(245, 245, 245, 0.884);
+    width: 70%;
+    margin: auto;
+    padding: 35px;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 0 0 20px ;
+}
+h1 {
+    background: rgba(208, 233, 98, 0.699);
+    text-align: center;
+    border-radius: 50px;
+    padding: 10px;
+    box-shadow: 0 0 20px ;
+}
+li {
+    background: rgb(92, 184, 238);
+    display: inline-block;
+    width: 15%;
+    text-align: center;
+    height: 45px; 
+   line-height: 45px;
+   border-radius: 50px;
+ 
+}
+
+li:hover {
+    transform: translateY(6px);
+    transition: 1s;
+}
+a {
+    text-decoration: none;
+    display: block;
+}
+li:hover {
+    background: rgba(208, 233, 98, 0.699);
+}
+#box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+figure img{
+    width: 150px;
+    box-shadow: 0 0 20px ;
+}
+
+.top {
+    width: 50px;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+}
+
+footer {
+    background: rgba(208, 233, 98, 0.899);
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 2%;
+    padding: 20px;
+    box-shadow: 0 0 20px ;
+}
+
+img:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+figcaption  {
+    margin-top: 10px;
+}
